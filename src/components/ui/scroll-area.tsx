@@ -50,7 +50,6 @@ export function HorizontalScroll({
       <div className={`flex gap-2 w-max whitespace-nowrap ${contentClassName}`}>
         {children}
       </div>
-      <ScrollBar orientation="horizontal" />
     </ScrollArea>
   );
 }
